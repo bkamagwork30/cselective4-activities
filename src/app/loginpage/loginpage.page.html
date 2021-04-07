@@ -1,0 +1,47 @@
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,
+500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,
+500&display=swap" rel="stylesheet">
+
+<ion-header class="ion-no-border">
+  <ion-toolbar color="light">
+    <div class="back-circle"></div>
+    <ion-title class="ion-text-center custom-font">Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true">
+
+  <div class="logo">
+    <img src="assets/icon/cubrix-logo-2.png" alt="">
+  </div>
+
+<svg class="back-blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <path fill="#8295A3" d="M34.5,-54.4C42.7,-54.9,46,-41.7,50.8,-30.3C55.6,-19,61.8,-9.5,64.5,1.6C67.3,12.7,66.5,25.3,58.4,30.9C50.3,36.5,34.8,35,23.8,38.8C12.9,42.6,6.4,51.7,-2.9,56.7C-12.2,61.7,-24.5,62.6,-37.3,59.9C-50.2,57.2,-63.8,50.9,-69.3,40.3C-74.9,29.7,-72.4,14.9,-71.2,0.7C-69.9,-13.4,-69.9,-26.9,-64.4,-37.7C-59,-48.5,-48.2,-56.6,-36.6,-54.1C-24.9,-51.6,-12.5,-38.5,0.3,-39C13.1,-39.6,26.2,-53.9,34.5,-54.4Z" transform="translate(100 100)" />
+</svg>
+
+<div class="ion-padding">
+  <form ngNativeValidate (submit)="login($event)" class="ion-padding">
+
+      <div class="wrap-input">
+      <input class="input" type="text" id="un" name="un" placeholder="Username" required>
+      </div>
+
+      <div class="wrap-input">
+      <input class="input" type="password" id="pw" name="pw" placeholder="Password" required>
+      </div>
+
+      <div class="container-form-btn">
+        <button type="submit" class="form-btn custom-font">Submit</button>
+      </div>
+      
+  </form>
+</div>
+
+</ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar color="light">
+    <p class="ion-text-center custom-font">Don't have an account? <a href="signup">Sign Up</a></p>
+  </ion-toolbar>
+</ion-footer>

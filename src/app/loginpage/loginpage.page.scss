@@ -1,0 +1,125 @@
+.custom-font {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+ion-toolbar {
+    --background: transparent;
+
+    ion-title {
+        padding: 20px 0 46px 0;
+        font-weight: 900;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        //padding: 0 20px;
+        //min-width: 160px;
+    }
+
+
+    p {
+        padding: 40px 0 20px 0;
+        font-weight: 700;
+    }
+
+    .back-circle {
+        z-index: -1;
+        width: 200px;
+        height: 200px;
+        background: #e5ecf1;
+        position: absolute;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+ 
+
+     // --background: rgba(237, 242, 245, .8);
+.logo img {
+    height: 180px;
+    width: auto;
+}
+
+.logo{
+    // background-color: red;
+    height: 30px;
+    text-align: center;
+}
+
+    .back-blob {
+        z-index: -1;
+        width: 600px;
+        position: absolute;
+        left: -30%;
+        top: 50px;
+        }
+
+    form {
+        margin-top: 130px;
+        }
+
+
+    .wrap-input {
+        background-color: rgba(255, 255, 255, .8);
+        border-radius: 20px;
+        margin-top: 7px;
+        margin-bottom: 20px;
+        box-shadow: 0 10px 30px 0px rgba(57, 71, 82, 0.12);
+        }
+
+    input {
+        display: block;
+        width: 100%;
+        background: white;
+        border-radius: 10px;
+        font-family: Josefin Sans;
+        font-size: 16px;
+        line-height: 1.2;
+        border: none;
+        outline: none;
+        height: 46px;
+        padding: 0 20px 0 23px;
+        }
+    
+    
+    input:focus{
+        border: 2px solid black;
+        // outline: none;
+    }    
+
+    .container-form-btn {
+        display: flex;
+        justify-content: center;
+        }
+
+    .form-btn {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+        min-width: 160px;
+        height: 42px;
+        background-color: #394752;
+        border-radius: 20px;
+        font-size: 14px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        padding-top: 5px;
+        transition: all 0.2s;
+        box-shadow: 0 10px 30px 0px rgba(57, 71, 82, 0.5)
+        }      
+    
+    .form-btn:hover {
+        background-color: #28333b;
+        box-shadow: 0 10px 30px 0px rgba(57, 71, 82, 0.8);
+    }
+
+    .form-btn:focus{
+        display: none;
+    }
