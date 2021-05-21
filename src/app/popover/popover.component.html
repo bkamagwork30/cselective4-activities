@@ -1,0 +1,19 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+
+<ion-list>
+  <ion-item button *ngFor="let item of list" (click)="_dismiss(item)">
+    {{item}}
+  </ion-item>
+  <!-- <ion-item class="ntf">
+    Notification
+  </ion-item> -->
+  <ion-item>
+    <!-- <ion-label>Logout</ion-label> -->
+    <div class="Logout">
+      <ion-button (click)="btnClicked()" fill="clear" size="large" color="dark"><strong>Logout</strong></ion-button>
+    </div>
+  </ion-item>
+</ion-list>
+
+<!-- class="lo" (click)="close()" -->

@@ -1,6 +1,5 @@
 #container {
   text-align: center;
-
   position: absolute;
   left: 0;
   right: 0;
@@ -24,4 +23,118 @@
 
 #container a {
   text-decoration: none;
+}
+
+.back-blob {
+z-index: -1;
+width: 500px;
+position: absolute;
+left: -30%;
+top: 90px;
+}
+
+// .back{
+//   margin: auto;
+//   margin-left: 3px;
+//   display: block;
+// }
+
+.notif{
+  margin-right: 15px;
+  margin: auto;
+  padding: 10px;
+}
+
+// .popOver {
+//   ion-backdrop{
+//     background-color: green !important;
+//   }
+// }
+
+.lbutton{
+  margin-top: 400px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // padding: 0 20px;
+  // min-width: 160px;
+  height: 130px;
+  width: 130px;
+  background-color: #394752; //#FF7733
+  border-radius: 100px;
+  font-size: 30px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+.logo{
+  // background-color: red;
+  height: 25%;
+  text-align: center;
+  margin-top: -25px;
+  position: absolute;
+}
+
+.alarmon{
+  margin-top: 28%;
+}
+
+.alarm{
+  display: block;
+  width: 50%;
+  margin-top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ion-toggle {
+
+  position: static;
+  --background: #394752;
+  --background-checked: white;
+
+  --handle-background: #646a6e;
+  --handle-background-checked: #CC4A63;
+
+  width: 25%;
+  --handle-border-radius: 14px 12px 12px 14px;
+  --handle-width: 35px;
+  --handle-height: 100px;
+  // height: 4%;
+  // border-radius: 30px;
+  // --handle-border-radius: 14px 12px 12px 14px;
+  // --handle-width: 45px;
+  // --handle-height: 80px;
+  // margin-top: 15%;
+  // margin-left: 37%;
+}
+
+// ion-toggle::before {
+//   position: absolute;
+
+//   top: 16px;
+//   left: 10px;
+
+//   content: "ON";
+
+//   color: white;
+//   font-size: 8px;
+
+//   z-index: 1;
+// }
+
+.tg-btn{
+  text-align: center;
+  // margin-top: 10%;
+}
+
+img.alarm{
+  padding-bottom: 42px;
 }

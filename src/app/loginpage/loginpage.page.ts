@@ -16,6 +16,7 @@ export class LoginpagePage implements OnInit {
     private router: Router
   ) { }
 
+   
   ionViewWillEnter() {
     if(this.user.isLoggedIn()) {
       this.router.navigate(['/home']);
